@@ -35,7 +35,7 @@ def map_to_square(source_array)
   return new
 end 
 def reduce_to_total(source_array,starting_point)
-  return sum(source_array)[starting_point]
+  return sum(source_array)
 end 
 
 
