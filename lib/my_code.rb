@@ -35,7 +35,7 @@ def map_to_square(source_array)
   return new
 end 
 def reduce_to_total(source_array,starting_point)
-    if source_array.reduce(starting_point) { |sum, num| sum + num}
-    else source_array.reduce)() { |sum, num| sum + num}
+    source_array.reduce(starting_point) { |sum, num| sum + num}
+    source_array.reduce)() { |sum, num| sum + num}
 end
 
